@@ -1,0 +1,121 @@
++*In[1]:*+
+[source, ipython3]
+----
+mylist=[14, "hello", 967]
+mylist=[6]
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+import pandas as pd
+import numPy as np
+----
+
+
++*Out[2]:*+
+----
+
+    ---------------------------------------------------------------------------
+
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    Cell In[2], line 2
+          1 import pandas as pd
+    ----> 2 import numPy as np
+    
+
+    ModuleNotFoundError: No module named 'numPy'
+
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+Print=["python errors"]
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+mydictionnary={True:"hello",False:"bye", '3':"python"}
+mydictionnary=['True']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+i = 14
+while i < 78:
+    print(i)
+    i += 1
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+
+it=iter([1,2,3,4])
+next(it)
+next(it)
+next(it)
+next(it)
+----
+
+
++*Out[11]:*+
+----4----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+15+15
+----
+
+
++*Out[12]:*+
+----30----
+
+
++*In[13]:*+
+[source, ipython3]
+----
+int=('python')
+----
+
+
++*In[20]:*+
+[source, ipython3]
+----
+ x = 19 / 0
+
+----
+
+
++*Out[20]:*+
+----
+
+    ---------------------------------------------------------------------------
+
+    ZeroDivisionError                         Traceback (most recent call last)
+
+    Cell In[20], line 1
+    ----> 1 x = 19 / 0
+    
+
+    ZeroDivisionError: division by zero
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
